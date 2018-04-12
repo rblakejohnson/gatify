@@ -13,4 +13,7 @@ export default () =>
        <div>
          <Link to="/page-2">Link</Link>
        </div>
+       <div>
+         <Link to="/quick">Quick</Link>
+       </div>
  </div>

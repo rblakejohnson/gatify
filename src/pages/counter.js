@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "gatsby-link"
 
 export default class Counter extends React.Component {
   constructor() {
@@ -19,6 +20,9 @@ export default class Counter extends React.Component {
           5 })}
 >minus
         </button>
+        <div>
+          <Link to="/">homey</Link>
+        </div>
       </div>
     )
   }
